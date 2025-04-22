@@ -34,11 +34,6 @@ pip install tensorflow numpy opencv-python pillow
 python neural.py
 ```
 
-### Executar via terminal (modo texto)
-```bash
-python index.py
-```
-
 ### Executar via interface gráfica
 ```bash
 python cistercian_gui_app.py
@@ -52,7 +47,7 @@ A rede neural foi projetada para identificar cada componente do número (milhar,
 
 ## 📸 Exemplo
 
-Ao inserir o número `4723`, o sistema gera a imagem correspondente ao seu formato Cisterciense, a exibe e tenta reconhecê-la com o modelo.
+Ao inserir o número `4723`, o sistema gera a imagem correspondente ao seu formato Cisterciense, a exibe e depois essa imagem salva na pasta `img` pode ser usada para testar o modelo.
 
 ---
 
