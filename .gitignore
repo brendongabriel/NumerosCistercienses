@@ -1,0 +1,8 @@
+# Imagens geradas
+img/
+
+# Cache do pytest
+.pytest_cache/
+
+# Cache de bytecode Python
+__pycache__/
