@@ -6,3 +6,6 @@ img/
 
 # Cache de bytecode Python
 __pycache__/
+
+# Arquivo documentação
+/docs
