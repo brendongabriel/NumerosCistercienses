@@ -1,0 +1,6 @@
+pytest
+opencv-python
+numpy
+tensorflow
+matplotlib
+Pillow
