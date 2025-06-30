@@ -25,3 +25,18 @@
 ### 🔁 Pull Requests
 - PR #3: `ci: add GitHub Actions workflow`
 - PR #4: `release: v1.0.0 → prd`
+
+---
+
+## [v1.1.1] – 29/06/2025
+
+### 🐛 Corrigido
+- Lançamento explícito de `FileNotFoundError` ao tentar carregar imagem inexistente na função `carregar_imagem_teste()`
+- Correção garante que o teste `test_carregar_imagem_teste_invalida` passe com sucesso na pipeline do GitHub Actions
+
+### 🔁 Pull Requests
+- PR #5: `fix/file-not-found-error` → `qa`
+- PR #6: `release: correção do erro de imagem inválida (v1.1.1)` → `prd`
+
+### 🔗 Issues relacionadas
+- Issue #3: `[Correção] Lançar FileNotFoundError ao carregar imagem inválida`
