@@ -6,11 +6,14 @@ import os
 
 def carregar_imagem_teste(caminho_imagem):
     img = cv2.imread(caminho_imagem, cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        raise FileNotFoundError(f"Imagem não encontrada: {caminho_imagem}")
     img = cv2.resize(img, (64, 64))
     img = img / 255.0
     img = np.expand_dims(img, axis=-1)
     img = np.expand_dims(img, axis=0)
     return img
+
 
 def preditar_numero(caminho_imagem, model):
     img = carregar_imagem_teste(caminho_imagem)
